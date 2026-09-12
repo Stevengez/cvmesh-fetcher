@@ -5,6 +5,9 @@
   "keywords": ["cvmesh", "resume", "jsonresume", "ats", "autofill", "open-resume-share"],
   "author": "CVMesh",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",

@@ -17,7 +17,7 @@ The Open Resume Share Protocol allows job boards, Applicant Tracking Systems (AT
 
 - Developer account registration
 - Client IDs or secrets
-- Complex OAuth 2.0 backend redirects
+- Complex backend redirects or server credentials
 
 ### How It Works
 
@@ -71,4 +71,4 @@ pnpm run clean
 
 ## License
 
-MIT © [CVMesh](https://cvmesh.net)
+MIT ï¿½ [CVMesh](https://cvmesh.net)

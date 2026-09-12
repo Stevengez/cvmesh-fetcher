@@ -8,7 +8,7 @@ Zero dependencies. Works in modern browsers (Chrome, Firefox, Safari, Edge) and 
 
 ## Features
 
-- ?? **Zero-Registration Flow**: No API keys, client secrets, or OAuth registration needed.
+- ?? **Zero-Registration Flow**: No API keys, client secrets, or registration overhead needed.
 - ?? **Secure Ephemeral Tokens**: Ephemeral 3-minute single-use HMAC-SHA256 tokens.
 - ?? **Standard JSON Resume**: Returns candidate data compliant with [jsonresume.org](https://jsonresume.org/schema).
 - ?? **Zero Dependencies**: Lightweight and tree-shakeable, with ESM and CommonJS builds.
@@ -151,4 +151,4 @@ Cancels any pending popup event listeners and intervals.
 
 ## License
 
-MIT © [CVMesh](https://cvmesh.net)
+MIT ï¿½ [CVMesh](https://cvmesh.net)

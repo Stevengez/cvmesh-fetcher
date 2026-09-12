@@ -5,6 +5,9 @@
   "keywords": ["cvmesh", "react", "hooks", "resume", "jsonresume", "ats", "autofill"],
   "author": "CVMesh",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",

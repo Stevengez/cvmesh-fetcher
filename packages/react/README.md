@@ -10,7 +10,7 @@ Easily integrate verified candidate resume fetching into **any existing button, 
 
 - ? **Framework Native**: Clean `useFetchResume` hook with zero unnecessary UI components.
 - ?? **Unopinionated Styling**: Attach it to your existing buttons, whether using Tailwind CSS, MUI, Shadcn UI, Ant Design, or plain HTML.
-- ??? **Zero-Registration Auth**: Third-party sites don't need OAuth client IDs or server credentials.
+- ??? **Zero-Registration Auth**: Third-party sites don't need client IDs or server credentials.
 - ?? **Standard JSON Resume**: Returns candidate profiles compliant with the official [JSON Resume](https://jsonresume.org/schema) schema.
 - ?? **Convenient `getButtonProps`**: Spread directly onto buttons for instant `onClick`, `disabled`, and `aria-busy` handling.
 
@@ -278,4 +278,4 @@ const { fetchResume } = useFetchResume({
 
 ## License
 
-MIT © [CVMesh](https://cvmesh.net)
+MIT ï¿½ [CVMesh](https://cvmesh.net)
