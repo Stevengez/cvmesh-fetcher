@@ -156,7 +156,7 @@ export function App() {
             })}
           >
             {loading && <span className="spinner" />}
-            {loading ? 'Connecting to CVMesh...' : '? Autofill with CVMesh'}
+            {loading ? 'Connecting to CVMesh...' : 'Autofill with CVMesh'}
           </button>
 
           {/* Method B: Direct fetchResume call */}

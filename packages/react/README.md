@@ -8,11 +8,11 @@ Easily integrate verified candidate resume fetching into **any existing button, 
 
 ## Features
 
-- ? **Framework Native**: Clean `useFetchResume` hook with zero unnecessary UI components.
-- ?? **Unopinionated Styling**: Attach it to your existing buttons, whether using Tailwind CSS, MUI, Shadcn UI, Ant Design, or plain HTML.
-- ??? **Zero-Registration Auth**: Third-party sites don't need client IDs or server credentials.
-- ?? **Standard JSON Resume**: Returns candidate profiles compliant with the official [JSON Resume](https://jsonresume.org/schema) schema.
-- ?? **Convenient `getButtonProps`**: Spread directly onto buttons for instant `onClick`, `disabled`, and `aria-busy` handling.
+- **Framework Native**: Clean `useFetchResume` hook with zero unnecessary UI components.
+- **Unopinionated Styling**: Attach it to your existing buttons, whether using Tailwind CSS, MUI, Shadcn UI, Ant Design, or plain HTML.
+- **Zero-Registration Auth**: Third-party sites don't need client IDs or server credentials.
+- **Standard JSON Resume**: Returns candidate profiles compliant with the official [JSON Resume](https://jsonresume.org/schema) schema.
+- **Convenient `getButtonProps`**: Spread directly onto buttons for instant `onClick`, `disabled`, and `aria-busy` handling.
 
 ---
 
@@ -60,7 +60,7 @@ export function JobApplicationForm() {
         disabled={loading}
         className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-md shadow disabled:opacity-50"
       >
-        {loading ? 'Connecting to CVMesh...' : '?? Autofill with CVMesh'}
+        {loading ? 'Connecting to CVMesh...' : 'Autofill with CVMesh'}
       </button>
 
       {error && <p className="text-red-500 text-sm">{error.message}</p>}
@@ -278,4 +278,4 @@ const { fetchResume } = useFetchResume({
 
 ## License
 
-MIT � [CVMesh](https://cvmesh.net)
+MIT &copy; [CVMesh](https://cvmesh.net)

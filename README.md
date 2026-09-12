@@ -71,4 +71,4 @@ pnpm run clean
 
 ## License
 
-MIT � [CVMesh](https://cvmesh.net)
+MIT &copy; [CVMesh](https://cvmesh.net)
