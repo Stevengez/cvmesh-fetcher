@@ -1,0 +1,5 @@
+packages:
+  - "packages/*"
+  - "packages/react/sample"
+allowBuilds:
+  esbuild: true

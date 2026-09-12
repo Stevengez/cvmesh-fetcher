@@ -1,0 +1,36 @@
+{
+  "name": "@cvmesh/fetcher",
+  "version": "1.0.0",
+  "description": "Framework-agnostic library to request and fetch resumes from CVMesh using the Open Resume Share protocol",
+  "keywords": ["cvmesh", "resume", "jsonresume", "ats", "autofill", "open-resume-share"],
+  "author": "CVMesh",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "lint": "tsc --noEmit",
+    "clean": "node -e \"fs.rmSync('dist', { recursive: true, force: true })\""
+  },
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.7"
+  }
+}
